@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:root {
+  --google-font: 'Shadows Into Light', sans-serif;
+}
+
+main {
+  width: 100vw;
+  color: rgb(234, 255, 118);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: 'Martian Mono', monospace;}
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  background: transparent;
+  grid-column: 2 / span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-bottom: var(--spacing);
+  font-family: 'Martian Mono', monospace;}
+
+section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+    font-family: 'Martian Mono', monospace;  }
+
+blockquote {
+    position: right;
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    font-family: 'Martian Mono', monospace;  }
+
+blockquote p {
+    position: right;
+    color: rgb(195, 40, 195);
+    background-color: transparent;
+    font-size: 2rem;
+    display: inline;
+    line-height: 1;
+    font-family: 'Martian Mono', monospace;  }
+
+.left {
+    grid-column: 6 / 12;
+  }
