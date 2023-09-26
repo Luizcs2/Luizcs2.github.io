@@ -1,17 +1,6 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "three.js": "^0.77.0"
-  }
+  "main": "index.cjs",
+  "module": "index.js",
+  "react-native": "index.js"
 }
