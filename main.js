@@ -1,6 +1,7 @@
 import "/style.css";
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from './OrbitControls.js'; // Assuming OrbitControls.js is in the same directory as your main.js
+
 
 
 // Setup
