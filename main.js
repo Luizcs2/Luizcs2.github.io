@@ -1,15 +1,7 @@
 
-	// import * as THREE from './build/three.module.js';
-			import * as THREE from 'https://threejs.org/build/three.module.js'; 
+	import * as THREE from 'https://threejs.org/build/three.module.js';
 
-			// import Stats from './jsm/libs/stats.module.js';
-			// import { GUI } from './jsm/libs/dat.gui.module.js';
-			// import { CinematicCamera } from './jsm/cameras/CinematicCamera.js';
-
-			import Stats from 'https://threejs.org/examples/jsm/libs/stats.module.js';
-			import { GUI } from 'https://threejs.org/examples/jsm/libs/dat.gui.module.js';
-			import { CinematicCamera } from 'https://threejs.org/examples/jsm/cameras/CinematicCamera.js';
-
+			import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
 // Setup
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
