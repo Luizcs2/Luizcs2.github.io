@@ -7,6 +7,36 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script type="module">
   import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
+         // Function to copy text to clipboard
+    function copyToClipboard(text) {
+        const tempInput = document.createElement('input');
+        tempInput.value = text;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+    }
+
+    // Open default email application when the email icon is clicked
+    document.querySelector('.contact-icons a[href^="mailto:"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default behavior (opening a new tab)
+        const email = this.getAttribute('href').replace('mailto:', ''); // Get the email address
+        window.location.href = 'mailto:' + email; // Open the default email application
+    });
+
+    // Copy email address when the "Copy Email" button is clicked
+    document.getElementById('copyEmail').addEventListener('click', function() {
+        const email = 'Luiz2012@outlook.ie';
+        copyToClipboard(email);
+        alert('Email address copied to clipboard: ' + email);
+    });
+
+    // Copy phone number when the "Copy Phone" button is clicked
+    document.getElementById('copyPhone').addEventListener('click', function() {
+        const phoneNumber = '0892111012';
+        copyToClipboard(phoneNumber);
+        alert('Phone number copied to clipboard: ' + phoneNumber);
+    });
 </script>
 
 
