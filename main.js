@@ -1,8 +1,14 @@
 
-import * as THREE from 'three';
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.133.0/examples/jsm/controls/OrbitControls.js';
+	// import * as THREE from './build/three.module.js';
+			import * as THREE from 'https://threejs.org/build/three.module.js'; 
 
+			// import Stats from './jsm/libs/stats.module.js';
+			// import { GUI } from './jsm/libs/dat.gui.module.js';
+			// import { CinematicCamera } from './jsm/cameras/CinematicCamera.js';
 
+			import Stats from 'https://threejs.org/examples/jsm/libs/stats.module.js';
+			import { GUI } from 'https://threejs.org/examples/jsm/libs/dat.gui.module.js';
+			import { CinematicCamera } from 'https://threejs.org/examples/jsm/cameras/CinematicCamera.js';
 
 // Setup
 const scene = new THREE.Scene();
