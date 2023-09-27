@@ -237,7 +237,7 @@ function animate() {
 
   // Rotate the celestial bodies
   moon.rotation.y += 0.005;
-  earth.rotation.x += 0.005;
+  earth.rotation.y += 0.005;
   uranus.rotation.y += 0.005;
   uranus.rotation.x += 0.005;
   jupiter.rotation.y += 0.005;
