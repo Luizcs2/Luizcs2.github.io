@@ -63,7 +63,7 @@ blockquote {
 
 blockquote p {
     position: right;
-    color: rgb(195, 40, 195);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     font-size: 2rem;
     display: inline;
