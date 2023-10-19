@@ -14,7 +14,7 @@ canvas {
 
 main {
   width: 100vw;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
   z-index: 99;
   position: absolute;
   width: 100%;
@@ -24,16 +24,23 @@ main {
   grid-template-columns: repeat(12, 1fr);
   font-family: 'Martian Mono', monospace;}
 
+
+
+
 h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-shadow: 3px 3px 0 #555;
 }
+
 
 canvas {
   position: fixed;
   top: 0;
   left: 0;
+
+
 }
 
 header {
@@ -42,7 +49,13 @@ header {
   font-size: 2.5rem;
   padding: 2rem;
   margin-bottom: var(--spacing);
-  font-family: 'Martian Mono', monospace;}
+  font-family: 'Martian Mono', monospace;
+      text-shadow: 3px 3px 0 #555; 
+
+
+}
+
+
 
 section {
     grid-column: 2 / 8;
@@ -51,7 +64,10 @@ section {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
-    font-family: 'Martian Mono', monospace;  }
+    font-family: 'Martian Mono', monospace;   text-shadow: 3px 3px 0 #555; 
+
+ }
+
 
 blockquote {
     position: right;
@@ -59,7 +75,9 @@ blockquote {
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
-    font-family: 'Martian Mono', monospace;  }
+    font-family: 'Martian Mono', monospace;   text-shadow: 3px 3px 0 #555; 
+
+ }
 
 blockquote p {
     position: right;
@@ -68,7 +86,9 @@ blockquote p {
     font-size: 2rem;
     display: inline;
     line-height: 1;
-    font-family: 'Martian Mono', monospace;  }
+    font-family: 'Martian Mono', monospace;   text-shadow: 3px 3px 0 #555; 
+
+ }
 
 .left {
     grid-column: 6 / 12;
